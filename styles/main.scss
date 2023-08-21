@@ -1,10 +1,36 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
-
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
 
 body {
-  background-color: antiquewhite;
-  color: brown;
+  background-image: url('https://wallpapercave.com/wp/wp6837850.jpg');
+  color: black;
   text-align: center;
   margin-top: 100px;
+  font-family: Luckiest Guy;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  background-color: orange;
+  padding: 100px;
+  border-radius: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 40px;
+  filter: drop-shadow(0 0 1rem black)
+}
+
+button {
+  margin-top: 60px;
+  width: 200px;
 }
